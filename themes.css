@@ -1,0 +1,72 @@
+/* Light Theme */
+body.light-theme {
+    background-color: var(--light-bg);
+    color: var(--light-text);
+}
+
+.light-theme .main-nav {
+    background-color: var(--light-bg);
+}
+
+.light-theme .nav-links a {
+    color: var(--light-text);
+}
+
+.light-theme .flipcard-front {
+    background-color: var(--light-secondary);
+}
+
+.light-theme .flipcard-back {
+    background-color: var(--light-accent);
+    color: var(--light-bg);
+}
+
+.light-theme .cta-button {
+    background-color: var(--light-accent);
+    color: var(--light-bg);
+}
+
+.light-theme .theme-toggle .fa-sun {
+    display: none;
+}
+
+.light-theme .theme-toggle .fa-moon {
+    display: inline-block;
+}
+
+/* Dark Theme */
+body.dark-theme {
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+}
+
+.dark-theme .main-nav {
+    background-color: var(--dark-bg);
+}
+
+.dark-theme .nav-links a {
+    color: var(--dark-text);
+}
+
+.dark-theme .flipcard-front {
+    background-color: var(--dark-secondary);
+}
+
+.dark-theme .flipcard-back {
+    background-color: var(--dark-accent);
+    color: var(--dark-bg);
+}
+
+.dark-theme .cta-button {
+    background-color: var(--dark-accent);
+    color: var(--dark-bg);
+}
+
+.dark-theme .theme-toggle .fa-sun {
+    display: inline-block;
+    color: var(--dark-text);
+}
+
+.dark-theme .theme-toggle .fa-moon {
+    display: none;
+}
